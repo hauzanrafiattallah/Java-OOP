@@ -1,9 +1,9 @@
 public class Kendaraan {
-  protected String merek;
-  protected int tahun;
+  String merek;
+  int tahun;
 
   // Constructor
-  public Kendaraan(String merek, int tahun) {
+  public  Kendaraan(String merek, int tahun) {
     this.merek = merek;
     this.tahun = tahun;
   }

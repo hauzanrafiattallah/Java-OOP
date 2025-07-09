@@ -1,19 +1,10 @@
 public class Mobil extends Kendaraan {
-  // atribut
-  String warna;
-  
-  // Constructor for Mobil
-  public Mobil(String merek, int tahun, String warna) {
+  // Constructor
+  public Mobil(String merek, int tahun) {
     super(merek, tahun); // Call parent constructor
-    this.warna = warna;
   }
 
-  // getter
-  String getWarna() {
-    return warna;
-  }
-  
   void mogok() {
-    System.out.println("Mobil " + merek + " warna " + warna + " tahun " + tahun + " mogok.");
+    System.out.println("Mobil " + merek + " tahun " + tahun + " mogok.");
   }
 }
