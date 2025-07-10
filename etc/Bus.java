@@ -1,3 +1,4 @@
+package etc;
 public class Bus {
   // atribut
   private String nopol;

@@ -1,3 +1,4 @@
+package etc;
 public class Main {
   public static void main(String[] args) {
     Bus D10 = new Bus("D 4 NJ", "Supri", 3);
